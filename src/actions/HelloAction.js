@@ -1,4 +1,4 @@
-export const HelloAction = (newText) => {
+const HelloAction = (newText) => {
   console.log('from HelloAction.js');
   return {
     type: 'CHANGE_TEXT',
